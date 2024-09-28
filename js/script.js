@@ -14,3 +14,8 @@ function validarLogin(event) {
         alert("Nombre de usuario o contraseña incorrectos");
     }
 }
+
+function validarRegistro(event) {
+    event.preventDefault(); 
+    window.location.href = "ok.html";
+}
